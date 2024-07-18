@@ -3,8 +3,8 @@
 # install firefox
 sudo add-apt-repository ppa:mozillateam/ppa
 sudo apt update
-sudo apt install firefox
+sudo apt install -y firefox
 
 # install python dependencies
-sudo apt install python3-virtualenv
-sudo apt install python3-pip
+sudo apt install -y python3-virtualenv
+sudo apt install -y python3-pip
