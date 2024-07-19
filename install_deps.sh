@@ -14,11 +14,11 @@ sudo rm -rf /usr/bin/libreoffice
 
 # install git
 echo "installing git"
-suod apt install -y git
+sudo apt install -y git
 
 # install vim
 echo "installing vim"
-suod apt install -y vim
+sudo apt install -y vim
 
 # install firefox
 if [[ ! -d "$HOME/Apps/firefox" ]]; then
