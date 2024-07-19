@@ -1,5 +1,18 @@
 #!/bin/bash
 
+# clean excess files
+echo "remove libreoffice for space"
+sudo apt remove -y --purge libreoffice*
+sudo apt-get autoremove
+sudo apt-get clean
+
+sudo rm -rf /etc/libreoffice
+sudo rm -rf /usr/lib/libreoffice
+sudo rm -rf /usr/share/libreoffice
+sudo rm -rf /usr/share/applications/libreoffice-*
+sudo rm -rf /usr/bin/libreoffice
+
+
 # install git
 echo "installing git"
 suod apt install -y git
