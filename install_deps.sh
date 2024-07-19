@@ -33,7 +33,5 @@ fi
 # install python dependencies
 echo "installing python"
 sudo apt update
-sudo apt install -y python3-virtualenv
-sudo apt install -y python3.12-virtualenv
-sudo apt install -y python3.10-virtualenv
+sudo apt install -y python3-venv
 sudo apt install -y python3-pip
