@@ -9,10 +9,43 @@ sudo apt install <software-name>
 
 ## Cowsay
 
-
-
 TODO Add image
 
+
+### Finding Additional Help Options
+
+Typically any command line will have help page
+
+Add `-h` to see the 'help' page.
+
+```sh
+cowsay -h
+```
+
+### Fun with Piping
+
+
+cowsay
+figlet
+fortune
+lolcat
+
+xcowsay
+
+
+
+
+
+
+### Pausing before commands
+
+different commands can be done in sequence if you add a `sleep` you can delay
+some time before.
+
+This can be useful for timers.
+```sh
+sleep 5; cowsay hi
+```
 
 ## How to search for new software
 
