@@ -1,4 +1,4 @@
-# BASH and making your own commands
+# BASH and Making Your Own Commands
 
 Bash is a shell, (the sh in bash stand for shell)
 
@@ -121,29 +121,33 @@ Let's make a different script called "koalasay"
 cowsay -n -f koala "$1"
 ```
 
-The `$1` is whatever the first thing you enter into the command line
+The `$1` is whatever the first quoted thing you enter into the command line.
+(e.g. "hello world" in `cowsay "hello world"`)
 
-NOTE: include the `-n` so that it will be compatible with figlet : )
+NOTE: Include `-n` so that it will be compatible with figlet : )
 
 ```sh
 chmod +x koalasay
 sudo mv koalasay /usr/bin
 ```
 
-```
+```sh
 koalasay "hello world"
 ```
+
+NOTE: when doing bash, the quotes are important.
 
 ### locating a CLI program
 
 To find the location for any cli program, just type in the `which` command and
 find the location:
+
 ```sh
 which koalasay
 ```
-result:
-```
+
+Result:
+
+```sh
 /usr/bin/koalasay
 ```
-
-
